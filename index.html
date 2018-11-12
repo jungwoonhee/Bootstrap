@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>title</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<style>
+		.header{background: url(./images/bg-top.jpg) no-repeat center top;background-size: cover;color: white;padding-top: 30px;padding-bottom: 50px;}
+		.header h1{padding-top: 90px;}
+		.bg-grey{background: #f5f5f5;}
+		img{max-width: 100%}
+		.footer{background: #0d121b; text-align: center;padding: 30px 50px 100px 50px;color: #555d6d}
+	</style>
+</head>
+<body>
+	<div class="header">
+
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<a href="#" class="navbar-brand">LOGO</a>
+			
+		<!-- 		<button class="navbar-toggler" data-toggle="collapse" data-taget="#tmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button> -->
+			<a class="navbar-toggler" data-toggle="collapse" href="#tmenu">
+				<span class="navbar-toggler-icon"></span>
+			</a>
+			
+			<div class="collapse navbar-collapse" id="tmenu">
+				<ul class="nav navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">MENU1</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">MENU2</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">MENU3</a>
+					</li>
+		
+					<!-- b4:dropdown -->
+					<li class="nav-item dropdown open">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown">
+							MENU4
+						</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<a class="dropdown-item" href="#">SubMenu1</a>
+							<a class="dropdown-item" href="#">SubMenu2</a>
+							<a class="dropdown-item" href="#">SubMenu3</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container text-center">
+			<h1><strong>Lorem ipsum dolor sit amet,</strong><br> consectetur adipisicing elit. Iure, nesciunt.</h1>
+			<h4 class="silver">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, amet.</h4>
+			<div class="btn btn-primary mt-4">Upload Project</div>
+			<div class="d-none d-md-block mt-5"></div>
+			<p class="d-none d-md-block">
+				<img src="../images/drop-icon.png">
+			</p>
+			<p class="d-none d-md-block">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Sint, architecto.</p>
+		</div>
+	</div>
+
+	<!-- b4:carousel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img src="./images/bg-top.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img src="./images/bg-top.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img src="./images/bg-top.jpg" alt="First slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#carousel-example-generic" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+
+	<div class="pt-5 pb-5 bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2>Lorem ipsum<br> <strong>dolor sit amet.</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sequi eligendi architecto debitis expedita aut sunt ut ea cumque perferendis?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, 
+					optio!</p>
+					<a href="#" class="btn btn-primary mb-5">more</a>
+				</div>
+				<div class="col-md-7"><img src="./images/symu-panel-1.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<div class="pt-5 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7"><img src="./images/symu-panel-2.png" alt=""></div>
+				<div class="col-md-5">
+					<h2>Lorem ipsum<br> <strong>dolor sit amet.</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sequi eligendi architecto debitis expedita aut sunt ut ea cumque perferendis?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, 
+					optio!</p>
+					<a href="#" class="btn btn-primary mb-5">more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pt-5 pb-5 bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2>Lorem ipsum<br> <strong>dolor sit amet.</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sequi eligendi architecto debitis expedita aut sunt ut ea cumque perferendis?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, 
+					optio!</p>
+					<a href="#" class="btn btn-primary mb-5">more</a>
+				</div>
+				<div class="col-md-7"><img src="./images/home-panel-3.jpg" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<div class="d-none d-md-block pt-5 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./images/envelope-icon.jpg" alt="icon" style="float: left;" class="pr-5 pb-5">
+					<h2>Lorem <br><strong>ipsum.</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nam.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="./images/lock-icon.jpg" alt="icon" style="float: left;" class="pr-5 pb-5">
+					<h2>Lorem <br><strong>ipsum.</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nam.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- b4:grid -->
+<div class="bg-dark text-light text-center d-none d-md-block pt-5 pb-5">
+	<div class="container">
+		<div class="row">
+	
+			<div class="col-md-2">
+				<div>
+					<h3>Lorem ipsum.</h3>
+				</div>
+				Todays Uploads
+			</div>
+			<div class="col-md-2">
+				<div>
+					<h3>Lorem ipsum.</h3>
+				</div>
+				Todays Uploads
+			</div>
+			<div class="col-md-4">
+				<a href="#myModal" class="btn btn-danger" data-toggle="modal">sign up now</a>
+			</div>
+			<div class="col-md-2">
+				<div>
+					<h3>Lorem ipsum.</h3>
+				</div>
+				Todays Uploads
+			</div>
+			<div class="col-md-2">
+				<div>
+					<h3>Lorem ipsum.</h3>
+				</div>
+				Todays Uploads
+			</div>
+	
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptatum suscipit recusandae adipisci sapiente est reiciendis eius accusamus ipsam nisi.
+</footer>
+	<!-- b4:modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal title</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						<span class="sr-only">Close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>One fine body&hellip;</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+</body>
+</html>
